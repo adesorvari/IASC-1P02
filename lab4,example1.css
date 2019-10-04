@@ -1,0 +1,22 @@
+body{
+  background-color: blue;
+}
+
+.box{
+  margin-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border: black 5px solid;
+}
+
+p.myStyle{
+  color: red;
+  margin: 15px;
+  border: grey 2px dashed;
+}
+img.myStyle{
+  height: 150px;
+  width: 130px;
+  padding: 20px;
+  border: white 2px dashed;
+}

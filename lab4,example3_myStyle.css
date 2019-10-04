@@ -1,0 +1,28 @@
+.boxOne{
+  background-color: green;
+}
+
+.boxTwo{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: black 4px dashed;
+}
+
+p.styleOne{
+  margin-top: 30px;
+  margin-left: 10px;
+  color: red;
+}
+
+p.styleTwo{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: darkGreen;
+}
+
+p.styleThree{
+  margin-top: 20px;
+  color: purple;
+}
