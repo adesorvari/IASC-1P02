@@ -1,0 +1,33 @@
+body{
+  background-color: black;
+}
+
+#wrapper{
+  margin: 10px auto;
+  background-color: white;
+  width: 1500px;
+  height: 1000px;
+  color: white;
+}
+
+#header {
+  background-color: red;
+  width: 1500px;
+  text-align: center;
+  padding-top: 20px;
+  float: left;
+}
+
+#leftbody{
+  background-color: green;
+  height: 700px;
+  width: 1500px;
+  float: left;
+}
+
+#bottom{
+  background-color: blue;
+  height: 100px;
+  width: 1500px;
+  float: left;
+}
