@@ -1,0 +1,128 @@
+/*Our general body css*/
+body{
+  background-color: yellow;
+}
+
+/*Our wrapper for our main first pros and cons table*/
+#wrapper{
+  margin: 0 auto;
+  height: 300px;
+  width: 400px;
+}
+
+/*The first header class*/
+.firstHeader{
+  text-align: center;
+  color: red;
+}
+
+/*Our second header class*/
+.headerTwo{
+  margin:0px;
+  background-color: white;
+  padding: 10px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+/*Our third header class*/
+.headerThree{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/*Our positive span that will change the word: "Positive"s characteristics*/
+span.positive{
+  color: lightGreen;
+  position: relative;
+  clear: both;
+  bottom: 7px;
+}
+
+/*Our negative span that will change the word: "Negative"s characteristics*/
+span.negative{
+  color: red;
+  position: relative;
+  clear: both;
+  top: 7px;
+}
+
+/*Our positiveText id will change all general characteristics and box values for the pros side of the table*/
+#positiveText{
+  height: 120px;
+  width: 200px;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  background-color: lightGreen;
+  float: left;
+}
+
+/*Our negativeText id will change all general characteristics and box values for the cons side of the table*/
+#negativeText{
+  height: 120px;
+  width: 200px;
+  box-sizing: border-box;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  background-color: red;
+  float: right;
+}
+
+/*Changes the color of the items on the list(pros)*/
+#positiveText li{
+  color: green;
+}
+
+/*Changes the color of the items on the list (cons)*/
+#negativeText li{
+  color: maroon;
+}
+
+/*Our third wrapper for the box that will contain our information*/
+#wrapper3{
+  height: 400px;
+  width: 800px;
+  border: 4px double darkBlue;
+  padding: 5px;
+}
+
+/*Characteristics for the first image on the right*/
+.imgOne{
+  height: 100px;
+  width: 100px;
+  float: right;
+  border: 1px solid black;
+}
+
+/*Characteristics for the second image on the left*/
+.imgTwo{
+  height: 100px;
+  width: 100px;
+  float: left;
+  border: 1px solid black;
+}
+/*Our pop up window with fixed positioning*/
+#popUp{
+  top: 230px;
+  right: 100px;
+  height: 150px;
+  width: 250px;
+  border: 2px dashed black;
+  position: fixed;
+  background-color: lightYellow;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/*Characteristics for the p and ol list classes*/
+.pOne, .olOne{
+  color: darkBlue;
+  font-family: monospace;
+}
