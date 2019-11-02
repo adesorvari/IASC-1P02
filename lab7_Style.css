@@ -1,0 +1,107 @@
+body {
+  background-image: url("Germany.png");
+}
+
+.color1 {
+  color: black;
+}
+
+.color2 {
+  color: red;
+}
+
+.color3 {
+  color: yellow;
+}
+
+#header {
+  margin: 0 auto;
+  padding-bottom: 10px;
+  height: 100px;
+  width: 1200px;
+  background-color: #edfeff;
+  font-family: Impact, serif;
+  font-size: 15px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.germanBar {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 80px;
+  width: 120px;
+  float: left;
+}
+
+#menu {
+  position: relative;
+  top: 15px;
+  left: 24px;
+  height: 400px;
+  width: 250px;
+  border: 3px solid black;
+  background-color: #edfeff;
+  float: left;
+}
+
+#events {
+  position: relative;
+  top: 15px;
+  margin: 0 auto;
+  height: 400px;
+  width: 250px;
+  border: 3px solid black;
+  background-color: #edfeff;
+}
+
+#information {
+  position: relative;
+  bottom: 390px;
+  right: 24px;
+  padding-left: 5px;
+  height: 400px;
+  width: 250px;
+  border: 3px solid black;
+  background-color: #edfeff;
+  float: right;
+}
+
+#bottom {
+  position: relative;
+  top: 25px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 50px;
+  width: 1200px;
+  background-color: #edfeff;
+  font-family: Impact, serif;
+  border: 3px solid black;
+}
+
+#menu, #events, #information {
+  font-style: italic;
+}
+
+.headerTwo {
+  text-align: center;
+  font-size: 20px;
+}
+
+li {
+  font-weight: bold;
+}
+
+.pOne {
+  float: left;
+}
+
+.logoItems {
+  position: relative;
+  left: 860px;
+  height: 40px;
+  width: 55px;
+  float:inherit;
+}
