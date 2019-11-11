@@ -1,0 +1,142 @@
+body {
+  background-color: cyan;
+}
+
+#wrapper {
+  margin: 0 auto;
+  height: 100px;
+  width: 1200px;
+  background-color: lightGreen;
+  border: 2px solid black;
+  text-align: center;
+  font-family: Times, serif;
+  font-size: 13px;
+}
+
+#quoteOfTheDay{
+  position: relative;
+  padding-left: 5px;
+  bottom: 104px;
+  height: 100px;
+  width: 200px;
+  background-color: lightGreen;
+  text-align: left;
+  float: right;
+  border: 1px solid black;
+}
+
+#liveScore {
+  position: relative;
+  margin-left: 23px;
+  height: 420px;
+  width: 300px;
+  background-color: lightGreen;
+  border: 2px solid black;
+  clear: both;
+  bottom: 70px;
+}
+
+#announcements {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: lightGreen;
+  border: 2px solid black;
+  left: 430px;
+  bottom: 490px;
+}
+
+#announcements {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: lightGreen;
+  border: 2px solid black;
+  left: 400px;
+  bottom: 490px;
+}
+
+#stateChampions {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: lightGreen;
+  border: 2px solid black;
+  left: 720px;
+  bottom: 693px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#toolBar {
+  position: relative;
+  width: 160px;
+  height: 415px;
+  background-color: lightGreen;
+  float: right;
+  bottom: 896px;
+  right: 23px;
+  border: 2px solid black;
+  font-size: 12px;
+}
+
+#coachKing {
+  position: relative;
+  width: 640px;
+  height: 198px;
+  background-color: lightGreen;
+  bottom: 680px;
+  left: 400px;
+  border: 2px solid black;
+}
+
+#bottom {
+  position: relative;
+  width: 1198px;
+  height: 80px;
+  background-color: lightGreen;
+  bottom: 670px;
+  left: 23px;
+  border: 2px solid black;
+}
+
+.quoteText {
+  font-style: italic
+}
+
+.pOne {
+  position: relative;
+  float: left;
+  width: 280px;
+  bottom: 25px;
+}
+
+.pTwo{
+  position: relative;
+  width: 280px;
+  float: right;
+  bottom: 25px;
+}
+
+.header{
+  text-align: center;
+}
+
+.pictureOne{
+  position: relative;
+  height: 80px;
+  width: 150px;
+  float: left;
+  bottom: 95px;
+  left: 5px;
+  border: 1px solid black;
+}
+
+.logoItems{
+  position: relative;
+  left: 970px;
+  bottom: 50px;
+  height: 40px;
+  width: 75px;
+  float:inherit;
+}
