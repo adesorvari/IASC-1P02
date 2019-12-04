@@ -1,0 +1,74 @@
+<DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Prices</title>
+	<link href="finalWebsite.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="finalWebsite.js"></script>
+</head>
+
+<body>
+	<div id="wholePage">
+		<div id="headerWrapper">
+			<img src="squareConstruction.png" alt="Square Construction" class="squareCons">
+			<h1 class="company"><span class="title">Square</span> Construction</h1>
+			<h2><a href="FinalWebsiteContact.html" class="menuOptions">Contact us</a></h2>
+			<h2><a href="FinalWebsiteAbout.html" class="menuOptions">About us</a></h2>
+			<h2><a href="FinalWebsitePortfolio.html" class="menuOptions">Portfolio</a></h2>
+			<h2><a href="FinalWebsitePrices.html" class="menuOptions">Prices</a></h2>
+			<h2><a href="FinalWebsite.html" class="menuOptions">Home</a></h2>
+		</div>
+
+		<div id="pricesBox">
+			<h2 style="text-align:center">Standard Prices/sqft:</h2>
+			<ul style="font-size: 16px;">
+				<li>Plywood - <span class="price">$1.50</span></li>
+				<li>Tile - <span class="price">$10.00</span></li>
+				<li>Carpet - <span class="price">$9.00</span></li>
+				<li>Services - <span class="price">~$150.00</span></li>
+				<p>Service prices change upon what is required for how much distance. For a full proper price please contact us.</p>
+			</ul>
+		</div>
+
+		<div id="priceCalculations" class="Plywood">
+				<h4 id="changeOne">Plywood prices:</h4>
+				<form name="formPlywood">
+					<input type="text" class="inputStyle" id="Plywood" value="0.00" size="4">
+				</form>
+				<button type="button" onclick="plywoodCalc()" id="buttonTing">Check price:</button>
+		</div>
+
+		<div id="priceCalculations" class="Tiles">
+			<h4 id="changeTwo">Tile Prices:</h4>
+			<form name="formTiles">
+				<input type="text" class="inputStyle" id="Tile" value="0.00" size="4">
+			</form>
+			<button type="button" onclick="tileCalc()" id="buttonTing">Check Price:</button>
+		</div>
+
+		<div id="priceCalculations" class="Carpets">
+			<h4 id="changeThree">Carpet Prices:</h4>
+			<form name="formCarpet">
+				<input type="text" class="inputStyle" id="Carpet" value="0.00" size="4">
+			</form>
+			<button type="button" onclick="carpetCalc()" id="buttonTing">Check Price:</button>
+		</div>
+
+		<div id="priceCalculations" class="Services">
+			<h4 id="changeFour">Service Prices:</h4>
+			<form name="formService">
+				<input type="text" class="inputStyle" id="Services" value="0.00" size="4">
+			</form>
+			<button type="button" onclick="serviceCalc()" id="buttonTing">Check Price:</button>
+		</div>
+
+		<div id="bottomBox">
+				<a href="https://www.instagram.com"><img src="instagram.png" alt="instagram" class="socialMediaIcon"></a>
+				<a href="https://www.twitter.com"><img src="twitter.png" alt="twitter" class="socialMediaIcon"></a>
+				<a href="https://www.facebook.com"><img src="facebook.png" alt="facebook" class="socialMediaIcon"></a>
+		</div>
+	</div>
+</body>
+
+</html>

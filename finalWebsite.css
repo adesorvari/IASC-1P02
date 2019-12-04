@@ -1,0 +1,302 @@
+body{
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #5c5c5c;
+}
+a:hover {
+    color: blue;
+}
+
+#wholePage{
+  width: 1280px;
+}
+#headerWrapper{
+  position: fixed;
+  background-color: white;
+  border-bottom:1px solid #ebebeb;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#bottomBox{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 60px;
+  width: 160px;
+  border-top:1px solid #ebebeb;
+  border-left:1px solid #ebebeb;
+  background-color: white;
+  z-index: 1;
+}
+
+#homeBoxes{
+  position: relative;
+  height: 280px;
+  width: 300px;
+  text-align: center;
+  line-height: 18px;
+}
+
+#ourStory {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  top: 200px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 80px;
+  line-height: 18px;
+}
+
+#footer{
+  padding-top: 50px;
+  position: relative;
+  top: 200px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #454545;
+  color: #bababa;
+}
+
+#pricesBox{
+  position: relative;
+  left: 70px;
+  top: 150px;
+  height: 300px;
+  width: 350px;
+  line-height: 24px;
+  border: 1px dotted black;
+}
+
+#priceCalculations{
+  position: absolute;
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+#buttonTing{
+  position: relative;
+  left: 200px;
+  bottom: 75px;
+}
+
+#row{
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolioItems{
+  float: left;
+  margin: 25px;
+  position: relative;
+  top: 130px;
+  height: 200px;
+  width: 250px;
+}
+
+#person{
+  float: left;
+  margin: 25px;
+  position: relative;
+}
+
+#team{
+  position: relative;
+  top: 120px;
+  height: 260px;
+  width: 98%;
+  margin: 0 auto;
+  border-bottom: 1px solid #ebebeb;
+}
+
+#founder{
+  position: relative;
+  top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid #ebebeb;
+}
+
+#contactUs{
+  position: relative;
+  float: left;
+  left: 40px;
+  top: 120px;
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+}
+
+#email{
+  position: relative;
+  padding: 15px;
+  top: 120px;
+  right: 40px;
+  float: right;
+  height: 300px;
+  width: 450px;
+  border:  1px solid #ebebeb;
+}
+
+#personName{
+  margin-right: 100px;
+  margin-bottom: 40px;
+}
+
+#portfolioItems:hover .overlay, #person:hover .overlay{
+  opacity: 0.8;
+}
+
+.googleMaps{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 230px;
+  border:  4px solid #ebebeb;
+}
+
+.businessPeople{
+  display: block;
+  height: 140px;
+  width: 200px;
+}
+
+.overlaySecondStyle{
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+
+.overlayStyle{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffa1a1;
+}
+
+.porftolioImage{
+  display: block;
+  height: 200px;
+  width: 250px;
+}
+
+.inputStyle{
+  position: relative;
+  bottom: 40px;
+  left: 120px;
+}
+
+.services{
+  top: 370px;
+  right: 60px;
+}
+
+.Carpets{
+  right: 60px;
+}
+
+.Tiles{
+  right: 60px;
+  top: 230px;
+}
+
+.Plywood{
+  top: 160px;
+  right: 60px;
+}
+
+.sassanPic{
+  position: relative;
+  bottom: 60px;
+  height: 250px;
+  width: 180px;
+  float: right;
+}
+
+.renovation{
+  float: right;
+  top: 150px;
+  right: 70px;
+}
+
+.commercial{
+  margin: 0 auto;
+  top: 150px;
+}
+
+.residential{
+  float: left;
+  top: 150px;
+  left: 70px;
+}
+
+.homeBoxImg{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.squareCons{
+  position: absolute;
+  height: 80px;
+  width: 130px;
+  top: 10px;
+  left: 10px;
+}
+
+.title{
+  color: blue;
+  font-size: 40px;
+}
+
+.company{
+  position: relative;
+  left: 150px;
+  color: #d4d4d4;
+}
+
+.menuOptions{
+  position: relative;
+  float: right;
+  margin: 8px;
+  bottom: 20px;
+  right: 10px;
+}
+
+.socialMediaIcon{
+  position: relative;
+  top: 10px;
+  left: 15px;
+  height: 40px;
+  width: 40px;
+}
